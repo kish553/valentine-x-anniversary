@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valentine x anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="mesh-gradient" id="meshGradient"></div>
+    
+    <canvas id="auroraCanvas"></canvas>
+    
+    <canvas id="liquidCanvas"></canvas>
+    
+    <div class="grain-overlay"></div>
+    
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <section class="eye-section" id="eyeSection">
+        <div class="eye-container" id="eyeContainer">
+            <div class="eye-crop magnetic" id="eyeCrop">
+                <img src="images/her-face.jpg" alt="Her eyes" id="eyeImg">
+                <div class="eye-glow"></div>
+            </div>
+            <h1 class="eye-title">Why I Fell For Your Eyes?</h1>
+            <p class="eye-hint">Click on your eye baby</p>
+        </div>
+    </section>
+
+    <div class="story-card glass" id="storyCard">
+        <button class="close-btn" id="closeStory">×</button>
+        <div class="story-content">
+            <img src="images/her-face.jpg" alt="You" class="story-img">
+            <h2>The Moment Everything Changed</h2>
+            <div class="story-text">
+                <p>It all started with your eyes, that was the first thing which attracted me to you, and i still remember that moment when i first saw you, all i could see was you. I was magically drawn to you, i dont have a logical explanation for that, but the closest thing which i can explain is the spark in your eyes, even a slight change in your eyes and i can see it, and predict your mood without you even saying a word.</p>
+                
+                <p>and if i want to compare our relationship to something then its definitely gonna be stock market, our thing blew up rapidly and crashed brutally, and it definitely took alot of time to recover, and we kept falling for the same trap.</p>
+                
+                <p>I dont consider this as some bf-gf relationship, its a commitment, a part of my life where my career and you are equally important, its time to switch from stock market to a safer option like gold for a stable growth.</p>
+                
+                <p>I dont love you for any physical reasons so if that changes one day, which definitely will, that wont have any impact on me, i am emotionally/spiritually wired to you. And i am also attracted to you in all the ways possible, anything related to you suddenly becomes more attractive to me, like your voice, your smell, your touch, your presence, everything about you is attractive to me.</p>
+                
+                <p>Honestly there were problems but it happens in every relationship, so we just have to solve it and not DODGE it, and i think this was our biggest mistake in the past years, we did not solve anything we just dodged problems multiple times and it just kept piling up.
+                
+                <p>we are about to hit our 2 year mark, and for this valentines i want us to work on fixing things and make this as stable as possible, because valentines is meant for loved ones and love only grows in a stable environment, and i want us to be in that environment.</p>
+                
+                <p>form now on we are entering a new phase in our relationship, where everything will be different, and have to think form a broader perspective, and we have to work on our relationship like we work on our careers, maintaining stability is the key babyy.</p>
+
+                <p class="final-line">I dont know what the future holds for us, but we do have the ability to change our own fate, i love you so much sanju.</p>
+            </div>
+            <button class="continue-btn glass magnetic" id="continueBtn">Wanna head to our gallery?</button>
+        </div>
+    </div>
+
+    <main id="mainContent" style="opacity: 0; pointer-events: none;">
+        
+        <section class="gallery-section">
+            <h2 class="section-title magnetic">Our Beautiful Moments</h2>
+            <div class="gallery-grid" id="gallery"></div>
+        </section>
+
+        <section class="question-section">
+            <div class="question-card glass">
+                <h2 class="question-title magnetic">So... Will You Be My Valentine?</h2>
+                <p class="question-text">Every hour with you feels like a minute, and every minute with you feels like an hour. I want to spend every moment of my life with you, and i want to celebrate all occasions with you till the end of time.</p>
+                <div class="answer-buttons">
+                    <button class="answer-btn yes glass magnetic" id="yesBtn">
+                        <span>Yes!</span>
+                        <div class="btn-particles"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-content">
+            <div class="heart-burst">💖</div>
+            <h2>Ong</h2>
+            <p>I LOVE YOU SO MUCH.</p>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lbClose">×</button>
+        <img id="lbImg" alt="">
+        <button class="lightbox-nav prev" id="lbPrev">‹</button>
+        <button class="lightbox-nav next" id="lbNext">›</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
